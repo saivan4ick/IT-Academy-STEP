@@ -1,0 +1,37 @@
+html {
+    text-align: center;
+}
+h1 {
+    color: red;
+}
+p {
+    color: rgb(60, 25, 218);
+}
+.about {
+    color: rgb(228, 38, 142);
+}
+.one_p {
+    color: saddlebrown;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.two_p {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer1 {
+    color: rgb(26, 46, 6);
+    opacity: 0.5;
+}
+#main {
+    background:rgb(164, 187, 218);
+}
+.note {
+    color: white;
+    background: violet;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover {
+    background:rgb(60, 25, 218);
+}
