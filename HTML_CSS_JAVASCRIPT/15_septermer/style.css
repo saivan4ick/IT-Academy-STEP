@@ -1,0 +1,63 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslateblue;
+}
+h1, h2, p {
+    text-align: center;
+    color: darkgreen;
+    text-shadow: 2px 2px 5px gray;
+}
+div {
+    font-size: 20px;
+}
+p {
+    word-spacing: 0mm;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+}
+article {
+    max-width: 65ch;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+main {
+    width: calc(100% - 250px);
+}
+.comic-relief-regular {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.comic-relief-bold {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+.btn--large {
+    padding: 14px 22px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btn--ghost {
+    background: transparent;
+    color: #2563eb;
+    border: 2px solid #2563ed;
+    text-transform:  capitalize;
+}
+.btn--ghost:hover {
+    background: #eff6ff;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: blue;
+}
+.text {
+    color: yellowgreen;
+}
+#main {
+    color: red;
+}

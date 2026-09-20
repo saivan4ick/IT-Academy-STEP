@@ -1,0 +1,76 @@
+.fixed-box {
+    width: 300px;
+    height: 120px;
+    background: #e0f2fe;
+    border: 2px solid #38bdf8;
+    padding: 10px;
+}
+.colored {
+    background-color: #fff3b0;
+    padding: 12px;
+    border-radius: 8px;
+}
+.div1 {
+    display: block;
+}
+.div2 {
+    display: inline;
+}
+.div3 {
+    display:inline-block;
+    background: rgb(128, 8, 48);
+    color:white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+span {
+    display: block;
+}
+.menu {
+    display: inline-block;
+    background: #f1f5f9;
+    padding: 11px;
+}
+.menu a {
+    display: inline-block;
+    background: #2563eb;
+    color: wheat;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.menu a:hover {
+    background: #0e2e88;
+}
+.text1 {
+    background: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+.text1:hover {
+    background: violet;
+}
+.text2 {
+    background: rgb(255, 0, 0);
+    transition: background-color 0.3s ease;
+}
+.text2:hover {
+    background: rgb(255, 255, 255);
+}
+.text3 {
+    background: rgb(189, 36, 10);
+    transition: background-color 0.3s ease;
+}
+.text3:hover {
+    background: rgb(229, 255, 0);
+}
+.text4 {
+    background: rgb(225, 0, 255);
+    transition: background-color 0.3s ease;
+}
+.text4:hover {
+    background: rgb(0, 204, 255);
+}
