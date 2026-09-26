@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #f4f4f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 16px;
+            width: 100%;
+            max-width: 320px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .image-container {
+            position: relative;
+            background-color: #f1f2f4;
+            border-radius: 16px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            mix-blend-mode: multiply;
+        }
+        .badge {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            background-color: #fde047; /* Желтый цвет */
+            color: #3f3f46;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: 4px;
+        }
+        .favorite-btn {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background-color: #ffffff;
+            border: none;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease;
+        }
+        .favorite-btn:hover {
+            transform: scale(1.08);
+        }
+        .favorite-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: none;
+            stroke: #3f3f46;
+            stroke-width: 2;
+        }
+        .info {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .title {
+            color: #71717a;
+            font-weight: 400;
+            line-height: 1.4;
+            padding: 0 10px;
+        }
+        .price {
+            color: #000000;
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+
+        .add-to-cart {
+            background-color: #fde047;
+            color: #000000;
+            border: none;
+            border-radius: 9999px;
+            padding: 14px 24px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.2s;
+            width: 100%;
+        }
+
+        .add-to-cart:hover {
+            background-color: #facc15;
+        }
+
+        .add-to-cart:active {
+            transform: scale(0.97);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image-container">
+            <div class="badge">Новинка</div>
+            <button class="favorite-btn" aria-label="Добавить в избранное">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                </svg>
+            </button>
+            <img src="./gta_vi.jpg" alt="gta vi" height="100px">
+        </div>
+        <div class="info">
+            <h3 class="title">GTA VI</h3>
+            <p class="price">1$</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+    </div>
+</body>
+</html>
