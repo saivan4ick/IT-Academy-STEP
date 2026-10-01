@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    height: 200px;
+    align-content: center;
+}
+.item {
+    background: rgb(204, 196, 218);
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 20px;
+    flex-shrink: 0;
+    flex-basis: 150px;
+    flex: 1 1 150px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background: rgb(76, 56, 151);
+    padding: 10px;
+    justify-content: space-around;
+}
+.menu a {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.special {
+    order: -1;
+    background: lightgreen;
+    align-self: flex-end;
+}
+.products {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    flex: 1 1 150px;
+    background: lightskyblue;
+    border: 2px solid #38bdf8;
+    padding: 16px;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: 600;
+}
+.big {
+    flex-grow: 2;
+    align-self: flex-end;
+    background: plum;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    background: #fafafa;
+}
