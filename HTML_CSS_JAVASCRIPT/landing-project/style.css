@@ -100,3 +100,256 @@ body {
     padding: 15px 30px;
     text-align: center;
 }
+.section_room_wrapper {
+    padding-top: 80px;
+    padding-right: 136px;
+    padding-bottom: 80px;
+    padding-left: 136px;
+}
+.title_2 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section_room_images {
+    margin-top:40px ;
+}
+.section_consultation_wrapper {
+    padding-top: 80px;
+    padding-right: 136px;
+    padding-bottom: 80px;
+    padding-left: 136px;
+}
+.consultation_block {
+    display: flex;
+    align-items: flex-start;
+}
+.consultation_info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.title_3 {
+    width: 393px;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    display: flex;
+    margin-bottom: 50px;
+}
+.consultation_list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.consultation_item {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+.consultation_text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 350px;
+}
+.consultation_text h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.consultation_text p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.section_quote_wrapper {
+    padding-top: 80px;
+    padding-right: 165px;
+    padding-bottom: 80px;
+    padding-left: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title_4 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    margin: 0;
+    width: 393px;
+}
+
+.quote_content {
+    display: flex;
+    gap: 30px;
+    max-width: 600px;
+}
+
+.quote_icon {
+    width: 44px;
+    height: 38px;
+    flex-shrink: 0;
+    margin-top: 5px;
+}
+
+.quote_text_block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.quote_text {
+    font-size: 24px;
+    line-height: 1.6;
+    margin: 0;
+    color: #111;
+}
+
+.quote_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote_author {
+    font-size: 14px;
+    color: #333;
+}
+
+.quote_arrows {
+    display: flex;
+    gap: 15px;
+}
+
+.arrow_btn {
+    border: none;
+    background-color: #F5F5F5;
+    color: #FD665E;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow_btn:hover {
+    background-color: #FD665E;
+    color: white;
+}
+
+.section_realize_wrapper {
+    padding-top: 64px;
+    padding-right: 136px;
+    padding-bottom: 64px;
+    padding-left: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.realize_image {
+    max-width: 50%;
+    height: auto;
+}
+
+.realize_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+}
+
+.title_5 {
+    font-size: 64px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.button_realize {
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 18px 40px;
+}
+
+.section_partners_wrapper {
+    padding-top: 64px;
+    padding-right: 136px;
+    padding-bottom: 48px;
+    padding-left: 136px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.title_6 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.partners_logos {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 136px;
+    padding-bottom: 80px;
+    padding-left: 136px;
+}
+
+.footer_menu {
+    display: flex;
+    gap: 40px;
+}
+
+.footer_menu_link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.footer_menu_link:hover {
+    color: #FD665E;
+}
+
+.footer_logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
