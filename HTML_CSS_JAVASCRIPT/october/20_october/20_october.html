@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 октбря </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="/search" method="GET">
+        <label for="q">Поиск:</label>
+        <input id="q" name="q" type="text" placeholder="Что ищем?"/>
+        <button type="submit">Найти</button>
+    </form>
+    <form class="auth" action="/signup" method="post">
+        <h3 class="auth_title">Регистрация</h3>    
+    <label class="auth_label" for="name">Имя
+        <input class="auth_input" id="name" name="name" type="text" placeholder="Ваше имя" required>
+    </label><br>
+    <label class="auth_label" for="email">Email
+        <input class="auth_input" name="email" id="email" type="email" placeholder="Ваш Email" required>
+    </label><br>
+    <label class="auth_label">Пароль
+        <input class="auth_input" name="password" type="password" placeholder="*******" required>
+    </label><br>
+    <label for="msg">Сообщение</label>
+    <textarea id="msg" name="message" rows="4" placeholder="Напитие сюда"></textarea>
+    <button class="auth_btn" type="submit">Создать</button>
+    </form>
+    <label for="city">Город</label>
+    <select id="city" name="city">
+        <option value="msk">Минск</option>
+        <option value="mgv">Могилев</option>
+        <option value="vtb">Витебск</option>
+    </select><br>
+    <button type="submit">Отправить</button><br>
+    <button type="button">Просто кнопка</button><br>
+    <button type="reset">Сбросить</button><br>
+    <fieldset>
+        <legend>Контакты</legend>
+        <label>Имя <input name="name" required></label>
+        <label>Телефон <input name="phone" type="tel"></label>
+    </fieldset><br>
+    <label for="fruit">Фрукт</label>
+    <input list="fruits" id="fruit" name="fruit"/>
+    <datalist id="fruits">
+        <option value="Яблоко">
+            <option value="Банан">
+                <option value="Апельсин">
+                </option>
+            </option>
+        </option>
+    </datalist><br>
+    <input type="tel" name="phone" placeholder="+375 ..."><br>
+    <input type="range" name="volume" min="0" max="10">
+</body>
+</html>
