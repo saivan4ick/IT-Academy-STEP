@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="auth">
+        <div class="auth__left">
+            <div class="auth__overlay">
+                <div class="auth__header">
+                    <span class="auth__brand">Photography.</span>
+                    <span class="auth__menu-icon">&#9776;</span>
+                </div>
+
+                <div class="auth__center-content">
+                    <span class="auth__tagline">CLICK FOR YOUR SHOOT</span>
+                    <h1 class="auth__heading">Photography.</h1>
+                </div>
+
+                <div class="auth__footer">
+                    <span>/JOURNEY EVERYWHERE</span>
+                </div>
+            </div>
+        </div>
+        <div class="auth__right">
+            <div class="auth__title-box">
+                <h2 class="auth__title">Registration</h2>
+                <p class="auth__subtitle">CLICK FOR YOUR SHOOT</p>
+            </div>
+
+            <form class="form" action="#" method="post">
+                <div class="form__group">
+                    <label class="form__label" for="name">Name</label>
+                    <input class="form__input" type="text" id="name" name="name" placeholder="Tamim Hasan" required>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="email">Email</label>
+                    <input class="form__input" type="email" id="email" name="email" placeholder="thamimhasan@gmail.com" required>
+                </div>
+                <div class="form__group">
+                    <span class="form__label">Gender</span>
+                    <div class="form__radios">
+                        <label class="form__radio-label">
+                            <input type="radio" name="gender" value="male" checked>
+                            <span>Male</span>
+                        </label>
+                        <label class="form__radio-label">
+                            <input type="radio" name="gender" value="female">
+                            <span>Female</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="birthdate">Date of Birth</label>
+                    <input class="form__input" type="date" id="birthdate" name="birthdate">
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="city">City</label>
+                    <input class="form__input" type="text" id="city" name="city" placeholder="Dhaka">
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="country">Country</label>
+                    <input class="form__input" type="text" id="country" name="country" placeholder="Bangladesh">
+                </div>
+                <div class="form__group">
+                    <span class="form__label">Subscription</span>
+                    <div class="form__radios">
+                        <label class="form__radio-label">
+                            <input type="radio" name="subscription" value="bronze">
+                            <span>Bronze</span>
+                        </label>
+                        <label class="form__radio-label">
+                            <input type="radio" name="subscription" value="silver" checked>
+                            <span>Silver</span>
+                        </label>
+                        <label class="form__radio-label">
+                            <input type="radio" name="subscription" value="gold">
+                            <span>Gold</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form__actions">
+                    <button type="reset" class="btn btn--ghost">CANCEL</button>
+                    <button type="submit" class="btn btn--primary">CONFIRM</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
