@@ -1,0 +1,36 @@
+@mixin btn($bg: $color-primary, $text: $color-text-light, $hover-bg: darken($bg, 10%)) {
+    display: inline-block;
+    padding: $padding-small $padding-base;
+    background-color: $bg;
+    color: $text;
+    border: none;
+    border-radius: $border-radius-btn;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all $transition-speed ease;
+    &:hover {
+        background-color: $hover-bg;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba($bg, 0.35);
+    }
+    &:active {
+        transform: translateY(0);
+    }
+}
+@mixin product-card {
+    background: $color-bg-card;
+    border: 2px solid $color-border-card;
+    border-radius: $border-radius-card;
+    padding: $padding-base;
+    text-align: center;
+    box-shadow: $shadow-card;
+    transition: all $transition-speed ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: $shadow-card-hover;
+        border-color: darken($color-border-card, 10%);
+    }
+}

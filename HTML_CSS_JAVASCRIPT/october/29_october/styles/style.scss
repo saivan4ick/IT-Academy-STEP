@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'mixins';
+@import 'components';
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: $color-bg-page;
+    color: $color-text-dark;
+}
