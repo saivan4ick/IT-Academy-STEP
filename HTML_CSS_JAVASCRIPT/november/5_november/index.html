@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started Now</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="signup-page">
+        <div class="signup-form-side">
+            <div class="signup-form-wrapper">
+                <h1 class="signup-title">Get Started Now</h1>
+                <form class="signup-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            class="form-input"
+                            placeholder="Enter your name"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            class="form-input"
+                            placeholder="Enter your email"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            class="form-input"
+                            placeholder="••••••••"
+                            required
+                        >
+                    </div>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="terms" required>
+                        <span>I agree to the <a href="#" class="link">terms & policy</a></span>
+                    </label>
+                    <button type="submit" class="btn-signup">Signup</button>
+                    <div class="divider">
+                        <span>or</span>
+                    </div>
+                    <div class="social-buttons">
+                        <button type="button" class="btn-social">
+                            <img src="./img/google.png">
+                            Sign in with Google
+                        </button>
+                        <button type="button" class="btn-social">
+                            <img src="./img/apple.png">
+                            Sign in with Apple
+                        </button>
+                    </div>
+                    <p class="signin-text">
+                        Have an account? <a href="#" class="link">Sign in</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="signup-image-side">
+            <img
+                src="./img/chris.jpg"
+                alt="Monstera leaf"
+                class="signup-image">
+        </div>
+    </div>
+</body>
+</html>
